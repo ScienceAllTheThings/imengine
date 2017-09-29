@@ -1,17 +1,7 @@
-
-# coding: utf-8
-
-# In[77]:
-
-
 from bs4 import BeautifulSoup as Soup
 import urllib2
 import json
 import urllib
-
-
-# In[78]:
-
 
 def get_links(query_string, num_images):
     links = []
@@ -27,26 +17,15 @@ def get_links(query_string, num_images):
             links.append(imgs[j]["src"])
     return links
 
-
-# In[79]:
-
-
 def get_images(links,pre):
     for i in range(len(links)):
         urllib.urlretrieve(links[i], "./images/"+str(pre)+str(i)+".jpg")
-        
-
-
-# In[ ]:
-
 
 terms = ["cars","numbers","scenery","people","dogs","cats","animals"]
 for x in range(len(terms)):
     all_links = get_links('animated+'+terms[x],1000)
     get_images(all_links,x)
 
-
-# In[ ]:
 
 
 
