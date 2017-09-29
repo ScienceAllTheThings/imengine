@@ -60,7 +60,7 @@ def get_images(links,directory,pre):
 def search_images(base,terms,num_images):
     for y in range(len(base)):
         for x in range(len(terms)):
-            all_links = get_links(base[y]'+'+terms[x],num_images)
+            all_links = get_links(base[y]+'+'+terms[x],num_images)
             get_images(all_links,"images",x)
 
 if __name__ == '__main__':
