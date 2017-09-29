@@ -6,4 +6,5 @@ The idea is to take animated images sourced from google images, do an edge detec
 For my example I will be using animated images.
 
 <b>September 29th 2017</b>
+
 Added a simple script to scrape images from google. So far it can seemingly download as many as I want.
