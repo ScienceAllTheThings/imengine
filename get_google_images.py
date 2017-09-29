@@ -1,3 +1,5 @@
+'''DISCLAIMER: DUE TO COPYRIGHT ISSUES, IMAGES GATHERED SHOULD
+   ONLY BE USED FOR RESEARCH AND EDUCATION PURPOSES ONLY'''
 from bs4 import BeautifulSoup as Soup
 import urllib2
 import json
