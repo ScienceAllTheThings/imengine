@@ -10,4 +10,5 @@ For my example I will be using animated images.
 Added a simple script to scrape images from google. So far it can seemingly download as many as I want.
 
 <b>October 2nd 2017</b>
+
 Added first draft of auto_encoder, still working through issues...
